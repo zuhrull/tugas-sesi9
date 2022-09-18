@@ -1,0 +1,96 @@
+* {
+  font-family: Poppins;
+  background-color: #1f2634;
+  color: white;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+ul {
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-size: 24px;
+  border-bottom: 1px solid #2789eb;
+  list-style: none;
+  display: flex;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 0px;
+}
+
+ul li a:hover{
+  background-color: #0e4a85;
+  color: #fff;
+}
+
+.active a{
+  background-color: #2789eb;
+  color: #fff;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.post-title {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: justify;
+  color: rgb(167, 164, 164);
+}
+
+.comm-name, .comm-email {
+  color: white;
+}
+
+.comm-name {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.comm-email {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.comm-body{
+  margin-top: 4px;
+}
+
+button {
+  font-size: 18px;
+  background-color: #0e4a85;
+  border: 0 none;
+  border-radius: 10px;
+  padding: 0 10px;
+  float: right;
+}
+
+.col {
+  column-count: 2;
+}
+
+button:hover {
+  background-color: #153657;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 500px;
+    font-size: 16px;
+  }
+}
